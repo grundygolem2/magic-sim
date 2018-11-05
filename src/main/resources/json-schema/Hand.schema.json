@@ -5,7 +5,7 @@
   "type": "object",
   "properties": {
     "containsCards": {
-      "description": "Array of card names that should be included in the hand\nDuplicates will be required multiple times",
+      "description": "Array of card names that should be included in the hand\nDuplicates will be required multiple times\nCards specified here will not be considered for containsTags checking",
       "type": "array",
       "items": {
         "type": "string"
@@ -19,7 +19,7 @@
       }
     },
     "containsTags": {
-      "description": "Array of tags that must be included in the hand\nDuplicates will be required multiple times",
+      "description": "Array of tags that must be included in the hand\nDuplicates will be required multiple times\nDoes not consider cards specified in containsCards",
       "type": "array",
       "items": {
         "type": "string"

@@ -8,6 +8,16 @@
             <SchemaInfo>
               <option name="name" value="Card.schema" />
               <option name="relativePathToSchema" value="src\main\resources\json-schema\Card.schema.json" />
+              <option name="schemaVersion" value="JSON schema version 7" />
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Cardfile.schema">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Cardfile.schema" />
+              <option name="relativePathToSchema" value="src\main\resources\json-schema\Cardfile.schema.json" />
+              <option name="schemaVersion" value="JSON schema version 7" />
             </SchemaInfo>
           </value>
         </entry>
@@ -20,11 +30,29 @@
             </SchemaInfo>
           </value>
         </entry>
+        <entry key="Deckfile.schema">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Deckfile.schema" />
+              <option name="relativePathToSchema" value="src\main\resources\json-schema\Deckfile.schema.json" />
+              <option name="schemaVersion" value="JSON schema version 7" />
+            </SchemaInfo>
+          </value>
+        </entry>
         <entry key="Hand.schema">
           <value>
             <SchemaInfo>
               <option name="name" value="Hand.schema" />
               <option name="relativePathToSchema" value="src\main\resources\json-schema\Hand.schema.json" />
+              <option name="schemaVersion" value="JSON schema version 7" />
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Handfile.schema">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Handfile.schema" />
+              <option name="relativePathToSchema" value="src\main\resources\json-schema\Handfile.schema.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
             </SchemaInfo>
           </value>
