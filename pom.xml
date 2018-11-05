@@ -39,9 +39,6 @@
                         <goals>
                             <goal>generate</goal>
                         </goals>
-                        <configuration>
-                            <!--<annotationStyle>gson</annotationStyle>-->
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
