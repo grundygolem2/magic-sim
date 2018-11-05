@@ -4,6 +4,6 @@
   "description": "A Magic-Sim parse-able Card file",
   "type": "array",
   "items": {
-    "$ref": "Card.schema.json"
+    "$ref": "Card.json"
   }
 }

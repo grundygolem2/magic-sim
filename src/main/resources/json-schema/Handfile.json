@@ -4,6 +4,6 @@
   "description": "A Magic-Sim parse-able Hand file",
   "type": "array",
   "items": {
-    "$ref": "Hand.schema.json"
+    "$ref": "Hand.json"
   }
 }

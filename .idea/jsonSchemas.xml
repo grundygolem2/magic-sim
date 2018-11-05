@@ -7,7 +7,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Card.schema" />
-              <option name="relativePathToSchema" value="src\main\resources\json-schema\Card.schema.json" />
+              <option name="relativePathToSchema" value="src/main/resources/Card.schema.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
             </SchemaInfo>
           </value>
@@ -16,7 +16,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Cardfile.schema" />
-              <option name="relativePathToSchema" value="src\main\resources\json-schema\Cardfile.schema.json" />
+              <option name="relativePathToSchema" value="src/main/resources/Cardfile.schema.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
             </SchemaInfo>
           </value>
@@ -25,7 +25,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Deck.schema" />
-              <option name="relativePathToSchema" value="src\main\resources\json-schema\Deck.schema.json" />
+              <option name="relativePathToSchema" value="src/main/resources/Deck.schema.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
             </SchemaInfo>
           </value>
@@ -34,7 +34,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Deckfile.schema" />
-              <option name="relativePathToSchema" value="src\main\resources\json-schema\Deckfile.schema.json" />
+              <option name="relativePathToSchema" value="src/main/resources/Deckfile.schema.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
             </SchemaInfo>
           </value>
@@ -43,7 +43,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Hand.schema" />
-              <option name="relativePathToSchema" value="src\main\resources\json-schema\Hand.schema.json" />
+              <option name="relativePathToSchema" value="src/main/resources/Hand.schema.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
             </SchemaInfo>
           </value>
@@ -52,7 +52,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Handfile.schema" />
-              <option name="relativePathToSchema" value="src\main\resources\json-schema\Handfile.schema.json" />
+              <option name="relativePathToSchema" value="src/main/resources/Handfile.schema.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
             </SchemaInfo>
           </value>
