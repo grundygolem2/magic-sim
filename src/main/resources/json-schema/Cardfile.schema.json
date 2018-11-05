@@ -1,0 +1,9 @@
+{
+  "$id": "Cardfile.schema.json",
+  "title": "Card File",
+  "description": "A Magic-Sim parse-able Card file",
+  "type": "array",
+  "items": {
+    "$ref": "Card.schema.json"
+  }
+}

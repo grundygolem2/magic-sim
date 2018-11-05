@@ -1,0 +1,42 @@
+{
+  "$id": "Hand.schema.json",
+  "title": "Hand",
+  "description": "A Magic-Sim hand definition",
+  "type": "object",
+  "properties": {
+    "containsCards": {
+      "description": "Array of card names that should be included in the hand\nDuplicates will be required multiple times\nCards specified here will not be considered for containsTags checking",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "excludesCards": {
+      "description": "Array of card names that must be missing in the hand",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "containsTags": {
+      "description": "Array of tags that must be included in the hand\nDuplicates will be required multiple times\nDoes not consider cards specified in containsCards",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "missingTags": {
+      "description": "Array of tags that must not be included on any cards in the hand",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "maxKeepSize": {
+      "description": "Hands that satisfy this set of rules are only kept if they're smaller than this number\nIf a hand satisfied multiple, the largest is chosen",
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "required": [ "maxKeepSize" ]
+}

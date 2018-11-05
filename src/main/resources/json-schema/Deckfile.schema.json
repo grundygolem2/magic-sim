@@ -1,0 +1,7 @@
+{
+  "$id": "Deckfile.schema.json",
+  "title": "Deck File",
+  "description": "A Magic-Sim parse-able Deck file",
+  "type": "object",
+  "$ref": "Deck.schema.json"
+}
