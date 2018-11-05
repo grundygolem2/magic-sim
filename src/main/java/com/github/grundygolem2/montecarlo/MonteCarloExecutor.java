@@ -1,14 +1,18 @@
 package com.github.grundygolem2.montecarlo;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 import java.util.function.Predicate;
 
 public class MonteCarloExecutor<T> {
-
+    private static final Logger logger = LoggerFactory.getLogger(MonteCarloExecutor.class);
     private List<T> source;
     private Predicate<List<T>> tester;
 
@@ -30,6 +34,11 @@ public class MonteCarloExecutor<T> {
             executor.submit(new TestRunner(sampleSize,result));
         }
         executor.shutdown();
+        try {
+            executor.awaitTermination(sampleCount * 10, TimeUnit.MILLISECONDS);
+        } catch (InterruptedException e){
+            logger.error("Interrupted while running MonteCarlo, result may be invalid");
+        }
         return result.getResult();
     }
 
