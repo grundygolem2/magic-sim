@@ -1,0 +1,21 @@
+{
+  "$id": "Card.schema.json",
+  "title": "Card",
+  "description": "A Magic-Sim card definition",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "WotC-issued name of the card",
+      "type": "string"
+    },
+    "tags": {
+      "description": "Contextual tags for the card, eg: \"dredger\"",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [ "name" ],
+  "additionalProperties": true
+}
