@@ -1,0 +1,26 @@
+{
+  "$id": "Deck.schema.json",
+  "title": "Deck",
+  "description": "A Magic-Sim deck definition",
+  "type": "object",
+  "properties": {
+    "cards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "WotC-issued name of the card - must map to a defined card in the Cards file",
+            "type": "string"
+          },
+          "quantity": {
+            "description": "Quantity of the card in the deck; non-negative integers only",
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [ "name", "quantity" ]
+      }
+    }
+  }
+}
