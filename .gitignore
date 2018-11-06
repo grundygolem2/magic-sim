@@ -25,4 +25,4 @@ hs_err_pid*
 
 #intellij stuff
 *.iml
-.idea/libraries
+.idea/libraries/
