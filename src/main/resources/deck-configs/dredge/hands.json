@@ -24,11 +24,11 @@
     "maxKeepSize": 7
   },
   {
-    "containsCards": [
-      "Cathartic Reunion"
-    ],
+    "containsCards": [],
     "excludesCards": [],
     "containsTags": [
+      "enabler",
+      "enabler",
       "makesGreen",
       "land"
     ],
@@ -54,7 +54,7 @@
     ],
     "excludesCards": [],
     "containsTags": [
-      "land"
+      "makesRed"
     ],
     "excludesTags": [],
     "maxKeepSize": 7
@@ -66,7 +66,7 @@
     ],
     "excludesCards": [],
     "containsTags": [
-      "land"
+      "makesRed"
     ],
     "excludesTags": [],
     "maxKeepSize": 7
@@ -90,7 +90,7 @@
     "excludesCards": [],
     "containsTags": [
       "makesGreen",
-      "land",
+      "makesRed",
       "dredger"
     ],
     "excludesTags": [],
@@ -102,7 +102,7 @@
     ],
     "excludesCards": [],
     "containsTags": [
-      "land"
+      "makesRed"
     ],
     "excludesTags": [],
     "maxKeepSize": 5
@@ -113,7 +113,7 @@
     ],
     "excludesCards": [],
     "containsTags": [
-      "land"
+      "makesRed"
     ],
     "excludesTags": [],
     "maxKeepSize": 5
@@ -124,8 +124,8 @@
     ],
     "excludesCards": [],
     "containsTags": [
-      "land",
-      "land",
+      "makesRed",
+      "makesRed",
       "dredger"
     ],
     "excludesTags": [],
@@ -137,7 +137,19 @@
     ],
     "excludesCards": [],
     "containsTags": [
-      "land",
+      "makesRed",
+      "land"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 5
+  },
+  {
+    "containsCards": [
+      "Life from the Loam"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
       "land"
     ],
     "excludesTags": [],

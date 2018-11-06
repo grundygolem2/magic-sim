@@ -3,13 +3,15 @@
     "name": "Stomping Ground",
     "tags": [
       "land",
-      "makesGreen"
+      "makesGreen",
+      "makesRed"
     ]
   },
   {
     "name": "Blood Crypt",
     "tags": [
-      "land"
+      "land",
+      "makesRed"
     ]
   },
   {
@@ -23,41 +25,47 @@
     "name": "Gemstone Mine",
     "tags": [
       "land",
-      "makesGreen"
+      "makesGreen",
+      "makesRed"
     ]
   },
   {
     "name": "Copperline Gorge",
     "tags": [
       "land",
-      "makesGreen"
+      "makesGreen",
+      "makesRed"
     ]
   },
   {
     "name": "Mana Confluence",
     "tags": [
       "land",
-      "makesGreen"
+      "makesGreen",
+      "makesRed"
     ]
   },
   {
     "name": "Bloodstained Mire",
     "tags": [
       "land",
-      "makesGreen"
+      "makesGreen",
+      "makesRed"
     ]
   },
   {
     "name": "Scalding Tarn",
     "tags": [
       "land",
-      "makesGreen"
+      "makesGreen",
+      "makesRed"
     ]
   },
   {
     "name": "Mountain",
     "tags": [
-      "land"
+      "land",
+      "makesRed"
     ]
   },
   {
@@ -81,7 +89,42 @@
     ]
   },
   {
+    "name": "Leyline of the Void",
+    "tags": [
+    ]
+  },
+  {
+    "name": "Assassin's Trophy",
+    "tags": [
+      "counterhate"
+    ]
+  },
+  {
+    "name": "Nature's Claim",
+    "tags": [
+      "counterhate"
+    ]
+  },
+  {
+    "name": "Ancient Grudge",
+    "tags": [
+      "counterhate"
+    ]
+  },
+  {
+    "name": "Thoughtseize",
+    "tags": [
+      "counterhate"
+    ]
+  },
+  {
     "name": "Conflagrate",
+    "tags": [
+      "enabler"
+    ]
+  },
+  {
+    "name": "Lightning Axe",
     "tags": [
       "enabler"
     ]
