@@ -33,7 +33,7 @@
       }
     },
     "maxKeepSize": {
-      "description": "Hands that satisfy this set of rules are only kept if they're smaller than this number\nIf a hand satisfied multiple, the largest is chosen",
+      "description": "Hands that satisfy this set of rules are only kept if they're smaller than or equal to this number\nIf a hand satisfied multiple, the largest is chosen",
       "type": "integer",
       "minimum": 1
     }
