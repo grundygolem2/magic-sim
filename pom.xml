@@ -39,6 +39,11 @@
                         <goals>
                             <goal>generate</goal>
                         </goals>
+                        <configuration>
+                            <outputDirectory>
+                                ${project.build.sourceDirectory}
+                            </outputDirectory>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
