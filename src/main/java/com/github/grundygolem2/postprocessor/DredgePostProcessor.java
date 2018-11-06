@@ -19,10 +19,12 @@ public class DredgePostProcessor implements PostProcessor<Card> {
     public boolean postProcess(List<Card> cards) {
         if (cards.stream().anyMatch(card -> card.getTags().contains("dredger"))) return true;
 
-        int dredgeDepth = 0;
+        int dredgeDepth = -1;
         for (Card card : cards) {
-            if (null != card.getAdditionalProperties().get("dredgeDepth"))
+            if (null != card.getAdditionalProperties().get("dredgeDepth")) {
                 dredgeDepth += (Integer) card.getAdditionalProperties().get("dredgeDepth");
+                dredgeDepth++;
+            }
         }
 
         HypergeometricDistribution distribution = new HypergeometricDistribution(deckSize - cards.size(), populationSuccesses, dredgeDepth);
