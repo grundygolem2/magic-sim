@@ -1,11 +1,14 @@
 package com.github.grundygolem2.montecarlo;
 
+import com.github.grundygolem2.postprocessor.PostProcessor;
+import javafx.geometry.Pos;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -15,10 +18,18 @@ public class MonteCarloExecutor<T> {
     private static final Logger logger = LoggerFactory.getLogger(MonteCarloExecutor.class);
     private List<T> source;
     private Predicate<List<T>> tester;
+    private Optional<PostProcessor<T>> postProcessor;
+
+    public MonteCarloExecutor(List<T> source, Predicate<List<T>> tester, PostProcessor<T> postProcessor) {
+        this.source = source;
+        this.tester = tester;
+        this.postProcessor = Optional.of(postProcessor);
+    }
 
     public MonteCarloExecutor(List<T> source, Predicate<List<T>> tester) {
         this.source = source;
         this.tester = tester;
+        this.postProcessor = Optional.empty();
     }
 
     public List<T> getSample(int sampleSize) {
@@ -30,13 +41,13 @@ public class MonteCarloExecutor<T> {
     public double runTest(int sampleSize, int sampleCount) {
         ExecutorService executor = Executors.newFixedThreadPool(10);
         Result result = new Result(sampleCount);
-        for (int i = 0; i < sampleCount; i++){
-            executor.submit(new TestRunner(sampleSize,result));
+        for (int i = 0; i < sampleCount; i++) {
+            executor.submit(new TestRunner(sampleSize, result));
         }
         executor.shutdown();
         try {
             executor.awaitTermination(sampleCount * 10, TimeUnit.MILLISECONDS);
-        } catch (InterruptedException e){
+        } catch (InterruptedException e) {
             logger.error("Interrupted while running MonteCarlo, result may be invalid");
         }
         return result.getResult();
@@ -55,7 +66,8 @@ public class MonteCarloExecutor<T> {
         public void run() {
             List<T> sample = getSample(sampleSize);
             boolean testResult = tester.test(sample);
-            if (testResult) {
+            boolean postProcessResult = postProcessor.map(processor -> processor.postProcess(sample)).orElse(true);
+            if (testResult && postProcessResult) {
                 result.success();
             }
         }
@@ -65,16 +77,16 @@ public class MonteCarloExecutor<T> {
         private final int size;
         private int successes = 0;
 
-        public Result(int size){
+        public Result(int size) {
             this.size = size;
         }
 
-        public void success(){
+        public void success() {
             successes++;
         }
 
-        public double getResult(){
-            return ((double)successes)/((double)size);
+        public double getResult() {
+            return ((double) successes) / ((double) size);
         }
     }
 }

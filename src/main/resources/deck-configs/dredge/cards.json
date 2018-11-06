@@ -121,7 +121,8 @@
     "name": "Cathartic Reunion",
     "tags": [
       "enabler"
-    ]
+    ],
+    "dredgeDepth": 3
   },
   {
     "name": "Shriekhorn",

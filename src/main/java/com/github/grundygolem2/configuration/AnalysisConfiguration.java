@@ -9,6 +9,8 @@ import com.github.grundygolem2.javapojo.CardCount;
 import com.github.grundygolem2.javapojo.Deck;
 import com.github.grundygolem2.javapojo.Hand;
 import com.github.grundygolem2.montecarlo.MonteCarloExecutor;
+import com.github.grundygolem2.postprocessor.DredgePostProcessor;
+import com.github.grundygolem2.postprocessor.PostProcessor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -92,8 +94,13 @@ public class AnalysisConfiguration {
     }
 
     @Bean
-    MonteCarloExecutor<Card> mce(List<Card> deckList,HandTester handTester){
-        return new MonteCarloExecutor<>(deckList,handTester);
+    PostProcessor<Card> postProcessor(List<Card> deckList){
+        return new DredgePostProcessor(deckList);
+    }
+
+    @Bean
+    MonteCarloExecutor<Card> mce(List<Card> deckList,HandTester handTester, PostProcessor<Card> postProcessor){
+        return new MonteCarloExecutor<>(deckList,handTester, postProcessor);
     }
 
 }
