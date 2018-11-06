@@ -1,0 +1,126 @@
+{
+  "items": [
+    {
+      "name": "Stomping Ground",
+      "tags": [
+        "land",
+        "makesGreen"
+      ]
+    },
+    {
+      "name": "Blood Crypt",
+      "tags": [
+        "land"
+      ]
+    },
+    {
+      "name": "Dakmor Salvage",
+      "tags": [
+        "land",
+        "dredger"
+      ]
+    },
+    {
+      "name": "Gemstone Mine",
+      "tags": [
+        "land",
+        "makesGreen"
+      ]
+    },
+    {
+      "name": "Mana Confluence",
+      "tags": [
+        "land",
+        "makesGreen"
+      ]
+    },
+    {
+      "name": "Bloodstained Mire",
+      "tags": [
+        "land",
+        "makesGreen"
+      ]
+    },
+    {
+      "name": "Scalding Tarn",
+      "tags": [
+        "land",
+        "makesGreen"
+      ]
+    },
+    {
+      "name": "Mountain",
+      "tags": [
+        "land"
+      ]
+    },{
+      "name": "Bloodghast",
+      "tags": [
+      ]
+    },
+    {
+      "name": "Narcomoeba",
+      "tags": [
+      ]
+    },
+    {
+      "name": "Prized Amalgam",
+      "tags": [
+      ]
+    },
+    {
+      "name": "Creeping Chill",
+      "tags": [
+      ]
+    },
+    {
+      "name": "Conflagrate",
+      "tags": [
+      ]
+    },
+    {
+      "name": "Stinkweed Imp",
+      "tags": [
+        "dredger"
+      ]
+    },
+    {
+      "name": "Life from the Loam",
+      "tags": [
+        "dredger"
+      ]
+    },
+    {
+      "name": "Darkblast",
+      "tags": [
+        "dredger"
+      ]
+    },
+    {
+      "name": "Golgari Thug",
+      "tags": [
+        "dredger"
+      ]
+    },
+    {
+      "name": "Faithless Looting",
+      "tags": [
+        "enabler"
+      ],
+      "dredgeDepth" : 2
+    },
+    {
+      "name": "Cathartic Reunion",
+      "tags": [
+        "enabler"
+      ]
+    },
+    {
+      "name": "Shriekhorn",
+      "tags": [
+        "enabler"
+      ],
+      "dredgeDepth" : 4
+    }
+  ]
+}

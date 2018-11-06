@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "containsCards": [],
+      "excludesCards": [],
+      "containsTags": ["enabler", "enabler", "makesGreen", "land", "dredger"],
+      "excludesTags": [],
+      "maxKeepSize": 7
+    },
+    {
+      "containsCards": [],
+      "excludesCards": [],
+      "containsTags": ["enabler", "enabler", "makesGreen", "land"],
+      "excludesTags": [],
+      "maxKeepSize": 7
+    },
+    {
+      "containsCards": ["Faithless Looting", "Faithless Looting"],
+      "excludesCards": [],
+      "containsTags": ["land", "dredger"],
+      "excludesTags": [],
+      "maxKeepSize": 7
+    },
+    {
+      "containsCards": ["Faithless Looting", "Faithless Looting"],
+      "excludesCards": [],
+      "containsTags": ["land"],
+      "excludesTags": [],
+      "maxKeepSize": 7
+    },
+    {
+      "containsCards": ["Faithless Looting", "Shriekhorn"],
+      "excludesCards": [],
+      "containsTags": ["land", "dredger"],
+      "excludesTags": [],
+      "maxKeepSize": 7
+    },
+    {
+      "containsCards": ["Faithless Looting", "Shriekhorn"],
+      "excludesCards": [],
+      "containsTags": ["land"],
+      "excludesTags": [],
+      "maxKeepSize": 7
+    },
+    {
+      "containsCards": ["Shriekhorn", "Shriekhorn"],
+      "excludesCards": [],
+      "containsTags": ["makesGreen"],
+      "excludesTags": [],
+      "maxKeepSize": 7
+    },
+    {
+      "containsCards": ["Faithless Looting"],
+      "excludesCards": [],
+      "containsTags": ["dredger","makesGreen", "land"],
+      "excludesTags": [],
+      "maxKeepSize": 7
+    },
+    {
+      "containsCards": ["Shriekhorn", "Life from the Loam", "Darkblast"],
+      "excludesCards": [],
+      "containsTags": ["makesGreen", "land"],
+      "excludesTags": [],
+      "maxKeepSize": 7
+    },
+    {
+      "containsCards": ["Shriekhorn", "Life from the Loam", "Conflagrate"],
+      "excludesCards": [],
+      "containsTags": ["makesGreen", "land"],
+      "excludesTags": [],
+      "maxKeepSize": 7
+    },
+    {
+      "containsCards": ["Conflagrate"],
+      "excludesCards": [],
+      "containsTags": ["makesGreen", "land", "dredger"],
+      "excludesTags": [],
+      "maxKeepSize": 6
+    },
+    {
+      "containsCards": [],
+      "excludesCards": [],
+      "containsTags": ["enabler","makesGreen", "land", "dredger"],
+      "excludesTags": [],
+      "maxKeepSize": 6
+    },
+    {
+      "containsCards": [],
+      "excludesCards": [],
+      "containsTags": ["enabler","makesGreen", "land"],
+      "excludesTags": [],
+      "maxKeepSize": 6
+    },
+    {
+      "containsCards": [],
+      "excludesCards": [],
+      "containsTags": ["enabler", "land", "dredger"],
+      "excludesTags": [],
+      "maxKeepSize": 5
+    },
+    {
+      "containsCards": [],
+      "excludesCards": [],
+      "containsTags": ["enabler", "land"],
+      "excludesTags": [],
+      "maxKeepSize": 5
+    },
+    {
+      "containsCards": ["Conflagrate"],
+      "excludesCards": [],
+      "containsTags": ["land", "land", "dredger"],
+      "excludesTags": [],
+      "maxKeepSize": 5
+    }
+  ]
+}
