@@ -19,15 +19,22 @@ public class Main {
         ctx.register(AnalysisConfiguration.class);
         ctx.refresh();
         MonteCarloExecutor<Card> mce = ctx.getBean(MonteCarloExecutor.class);
-        HandTester tester = ctx.getBean(HandTester.class);
-        for (int i = 0; i < 20; i++) {
-            List<Card> cards = mce.getSample(7);
-            System.out.println(cards.stream().map(card -> card.getName()).collect(Collectors.toList()) + "->" + tester.test(cards));
-        }
+//        HandTester tester = ctx.getBean(HandTester.class);
+//        for (int i = 0; i < 20; i++) {
+//            List<Card> cards = mce.getSample(7);
+//            System.out.println(cards.stream().map(card -> card.getName()).collect(Collectors.toList()) + "->" + tester.test(cards));
+//        }
 
-        System.out.println("Keepable 7: " + mce.runTest(7, 100000));
-        System.out.println("Keepable 6: " + mce.runTest(6, 100000));
-        System.out.println("Keepable 5: " + mce.runTest(5, 100000));
+        double seven = mce.runTest(7, 100000);
+        System.out.println("Keepable 7: " + seven);
+        double six = mce.runTest(6, 100000);
+        System.out.println("Keepable 6: " + six);
+        double five = mce.runTest(5, 100000);
+        System.out.println("Keepable 5: " + five);
 
+        double sevenOrSix = seven + (1-seven)*(six);
+        System.out.println("Keepable 7 or 6 : " + sevenOrSix);
+        double sevenSixFive = sevenOrSix + (1-sevenOrSix)*(five);
+        System.out.println("Keepable 7,6,5 : " + sevenSixFive);
     }
 }
