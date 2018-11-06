@@ -4,7 +4,7 @@
   "description": "A Magic-Sim deck definition",
   "type": "object",
   "properties": {
-    "cards": {
+    "cardCounts": {
       "type": "array",
       "items": {
         "type": "object",

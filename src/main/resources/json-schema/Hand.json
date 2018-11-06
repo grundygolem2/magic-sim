@@ -25,7 +25,7 @@
         "type": "string"
       }
     },
-    "missingTags": {
+    "excludesTags": {
       "description": "Array of tags that must not be included on any cards in the hand",
       "type": "array",
       "items": {
