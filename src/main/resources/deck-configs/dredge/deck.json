@@ -1,0 +1,88 @@
+{
+  "cardCounts": [
+    {
+      "name": "Stomping Ground",
+      "quantity": 2
+    },
+    {
+      "name": "Blood Crypt",
+      "quantity": 2
+    },
+    {
+      "name": "Mountain",
+      "quantity": 2
+    },
+    {
+      "name": "Gemstone Mine",
+      "quantity": 2
+    },
+    {
+      "name": "Dakmor Salvage",
+      "quantity": 1
+    },
+    {
+      "name": "Scalding Tarn",
+      "quantity": 4
+    },
+    {
+      "name": "Bloodstained Mire",
+      "quantity": 1
+    },
+    {
+      "name": "Mana Confluence",
+      "quantity": 1
+    },
+    {
+      "name": "Copperline Gorge",
+      "quantity": 4
+    },
+    {
+      "name": "Darkblast",
+      "quantity": 1
+    },
+    {
+      "name": "Golgari Thug",
+      "quantity": 1
+    },
+    {
+      "name": "Life from the Loam",
+      "quantity": 4
+    },
+    {
+      "name": "Stinkweed Imp",
+      "quantity": 4
+    },
+    {
+      "name": "Shriekhorn",
+      "quantity": 4
+    },
+    {
+      "name": "Faithless Looting",
+      "quantity": 4
+    },
+    {
+      "name": "Cathartic Reunion",
+      "quantity": 4
+    },
+    {
+      "name": "Narcomoeba",
+      "quantity": 4
+    },
+    {
+      "name": "Bloodghast",
+      "quantity": 4
+    },
+    {
+      "name": "Prized Amalgam",
+      "quantity": 4
+    },
+    {
+      "name": "Creeping Chill",
+      "quantity": 4
+    },
+    {
+      "name": "Conflagrate",
+      "quantity": 3
+    }
+  ]
+}

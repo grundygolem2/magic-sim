@@ -27,6 +27,13 @@
     ]
   },
   {
+    "name": "Copperline Gorge",
+    "tags": [
+      "land",
+      "makesGreen"
+    ]
+  },
+  {
     "name": "Mana Confluence",
     "tags": [
       "land",
@@ -76,6 +83,7 @@
   {
     "name": "Conflagrate",
     "tags": [
+      "enabler"
     ]
   },
   {

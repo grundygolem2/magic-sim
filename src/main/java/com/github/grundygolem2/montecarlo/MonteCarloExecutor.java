@@ -53,7 +53,9 @@ public class MonteCarloExecutor<T> {
 
         @Override
         public void run() {
-            if (tester.test(getSample(sampleSize))) {
+            List<T> sample = getSample(sampleSize);
+            boolean testResult = tester.test(sample);
+            if (testResult) {
                 result.success();
             }
         }

@@ -3,10 +3,12 @@ package com.github.grundygolem2.configuration;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.CollectionType;
 import com.fasterxml.jackson.databind.type.TypeFactory;
+import com.github.grundygolem2.handcomparitor.HandTester;
 import com.github.grundygolem2.javapojo.Card;
 import com.github.grundygolem2.javapojo.CardCount;
 import com.github.grundygolem2.javapojo.Deck;
 import com.github.grundygolem2.javapojo.Hand;
+import com.github.grundygolem2.montecarlo.MonteCarloExecutor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -65,9 +67,7 @@ public class AnalysisConfiguration {
 
     @Bean
     Deck deck(String deckJson) throws IOException {
-        CollectionType typeReference =
-                TypeFactory.defaultInstance().constructCollectionType(List.class, Deck.class);
-        return new ObjectMapper().readValue(deckJson, typeReference);
+        return new ObjectMapper().readValue(deckJson, Deck.class);
     }
 
     @Bean
@@ -82,8 +82,18 @@ public class AnalysisConfiguration {
                 }
             }
         }
+        System.out.println("Deck Size:" + deckList.size());
         return deckList;
     }
 
+    @Bean
+    HandTester handTester(List<Hand> hands){
+        return new HandTester(hands);
+    }
+
+    @Bean
+    MonteCarloExecutor<Card> mce(List<Card> deckList,HandTester handTester){
+        return new MonteCarloExecutor<>(deckList,handTester);
+    }
 
 }
