@@ -39,7 +39,7 @@ public class MonteCarloExecutor<T> {
     }
 
     public double runTest(int sampleSize, int sampleCount) {
-        ExecutorService executor = Executors.newFixedThreadPool(10);
+        ExecutorService executor = Executors.newFixedThreadPool(25);
         Result result = new Result(sampleCount);
         for (int i = 0; i < sampleCount; i++) {
             executor.submit(new TestRunner(sampleSize, result));

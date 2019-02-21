@@ -19,11 +19,11 @@ public class Main {
         ctx.register(AnalysisConfiguration.class);
         ctx.refresh();
         MonteCarloExecutor<Card> mce = ctx.getBean(MonteCarloExecutor.class);
-//        HandTester tester = ctx.getBean(HandTester.class);
-//        for (int i = 0; i < 20; i++) {
-//            List<Card> cards = mce.getSample(7);
-//            System.out.println(cards.stream().map(card -> card.getName()).collect(Collectors.toList()) + "->" + tester.test(cards));
-//        }
+        HandTester tester = ctx.getBean(HandTester.class);
+        for (int i = 0; i < 35; i++) {
+            List<Card> cards = mce.getSample(5);
+            System.out.println(cards.stream().map(card -> card.getName()).collect(Collectors.toList()) + "->" + tester.test(cards));
+        }
 
         double seven = mce.runTest(7, 100000);
         System.out.println("Keepable 7: " + seven);

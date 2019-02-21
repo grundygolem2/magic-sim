@@ -13,6 +13,63 @@
   },
   {
     "containsCards": [
+      "Lightning Axe"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "land",
+      "enabler",
+      "dredger"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [
+      "Lightning Axe",
+      "Life from the Loam"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "land",
+      "dredger"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [
+      "Cathartic Reunion"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "land",
+      "dredger",
+      "dredger"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [
+      "Conflagrate",
+      "Life from the Loam"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "land",
+      "dredger",
+      "fliplessPayoff"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [
       "Shriekhorn"
     ],
     "excludesCards": [],
@@ -120,6 +177,18 @@
   },
   {
     "containsCards": [
+      "Lightning Axe"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "dredger"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 5
+  },
+  {
+    "containsCards": [
       "Conflagrate"
     ],
     "excludesCards": [],
@@ -135,7 +204,7 @@
     "containsCards": [
       "Cathartic Reunion"
     ],
-    "excludesCards": [],
+    "excludesCards": [], 
     "containsTags": [
       "makesRed",
       "land"

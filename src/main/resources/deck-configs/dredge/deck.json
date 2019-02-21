@@ -54,7 +54,7 @@
     },
     {
       "name": "Shriekhorn",
-      "quantity": 4
+      "quantity": 1
     },
     {
       "name": "Faithless Looting",
@@ -70,7 +70,7 @@
     },
     {
       "name": "Bloodghast",
-      "quantity": 3
+      "quantity": 4
     },
     {
       "name": "Prized Amalgam",
@@ -82,6 +82,10 @@
     },
     {
       "name": "Conflagrate",
+      "quantity": 3
+    },
+    {
+      "name": "Assassin's Trophy",
       "quantity": 3
     }
   ]

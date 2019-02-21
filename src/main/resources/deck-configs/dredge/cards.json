@@ -71,21 +71,27 @@
   {
     "name": "Bloodghast",
     "tags": [
+      "payoff",
+      "fliplessPayoff"
     ]
   },
   {
     "name": "Narcomoeba",
     "tags": [
+      "payoff"
     ]
   },
   {
     "name": "Prized Amalgam",
     "tags": [
+      "payoff",
+      "fliplessPayoff"
     ]
   },
   {
     "name": "Creeping Chill",
     "tags": [
+      "payoff"
     ]
   },
   {
