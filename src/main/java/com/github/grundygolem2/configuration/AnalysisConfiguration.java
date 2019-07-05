@@ -99,8 +99,8 @@ public class AnalysisConfiguration {
     }
 
     @Bean
-    MonteCarloExecutor<Card> mce(List<Card> deckList,HandTester handTester, PostProcessor<Card> postProcessor){
-        return new MonteCarloExecutor<>(deckList,handTester, postProcessor);
+    MonteCarloExecutor mce(List<Card> deckList,HandTester handTester, PostProcessor<Card> postProcessor){
+        return new MonteCarloExecutor(deckList,handTester, postProcessor);
     }
 
 }

@@ -22,7 +22,7 @@ public class DredgePostProcessor implements PostProcessor<Card> {
         //-1 here, and the ++ in the loop, account for draw steps between enablers
         int dredgeDepth = -1;
         //accounts for the scry rule on hands smaller than 7
-        if (cards.size() < 7) dredgeDepth++;
+//        if (cards.size() < 7) dredgeDepth++;
         for (Card card : cards) {
             if (null != card.getAdditionalProperties().get("dredgeDepth")) {
                 dredgeDepth += (Integer) card.getAdditionalProperties().get("dredgeDepth");

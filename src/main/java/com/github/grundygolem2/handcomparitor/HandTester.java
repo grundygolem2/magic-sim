@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class HandTester implements Predicate<List<Card>> {
+public class HandTester /*implements Predicate<List<Card>> todo revert*/ {
 
     private List<Hand> hands;
 
@@ -15,13 +15,13 @@ public class HandTester implements Predicate<List<Card>> {
         this.hands = hands;
     }
 
-    @Override
-    public boolean test(List<Card> cards) {
-        return hands.stream().map((hand) -> (matches(hand, cards))).reduce(Boolean.FALSE, Boolean::logicalOr);
+//    @Override todo revert
+    public boolean test(List<Card> cards, Integer mullNumber) {
+        return hands.stream().map((hand) -> (matches(hand, cards, mullNumber))).reduce(Boolean.FALSE, Boolean::logicalOr);
     }
 
-    public static boolean matches(Hand hand, List<Card> cards) {
-        if (hand.getMaxKeepSize() < cards.size()) return false;
+    public static boolean matches(Hand hand, List<Card> cards, Integer mullNumber) {
+        if (hand.getMaxKeepSize() < (7-mullNumber)) return false; //todo revert
         for (String cardName : hand.getExcludesCards()) {
             for (Card card : cards) {
                 if (card.getName().equals(cardName)) return false;

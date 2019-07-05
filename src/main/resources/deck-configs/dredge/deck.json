@@ -54,7 +54,7 @@
     },
     {
       "name": "Shriekhorn",
-      "quantity": 1
+      "quantity": 4
     },
     {
       "name": "Faithless Looting",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Assassin's Trophy",
-      "quantity": 3
+      "quantity": 0
     }
   ]
 }

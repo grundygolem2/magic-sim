@@ -18,18 +18,18 @@ public class Main {
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
         ctx.register(AnalysisConfiguration.class);
         ctx.refresh();
-        MonteCarloExecutor<Card> mce = ctx.getBean(MonteCarloExecutor.class);
+        MonteCarloExecutor mce = ctx.getBean(MonteCarloExecutor.class);
         HandTester tester = ctx.getBean(HandTester.class);
         for (int i = 0; i < 35; i++) {
             List<Card> cards = mce.getSample(5);
-            System.out.println(cards.stream().map(card -> card.getName()).collect(Collectors.toList()) + "->" + tester.test(cards));
+            System.out.println(cards.stream().map(card -> card.getName()).collect(Collectors.toList()) + "->" + tester.test(cards,0));
         }
 
-        double seven = mce.runTest(7, 100000);
+        double seven = mce.runTest(7, 100000,0);
         System.out.println("Keepable 7: " + seven);
-        double six = mce.runTest(6, 100000);
+        double six = mce.runTest(7, 100000,1);
         System.out.println("Keepable 6: " + six);
-        double five = mce.runTest(5, 100000);
+        double five = mce.runTest(7, 100000,2);
         System.out.println("Keepable 5: " + five);
 
         double sevenOrSix = seven + (1-seven)*(six);
