@@ -1,0 +1,227 @@
+[
+  {
+    "containsCards": [
+      "Faithless Looting"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "land"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [
+      "Lightning Axe"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "land",
+      "enabler",
+      "dredger"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [
+      "Lightning Axe",
+      "Life from the Loam"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "land",
+      "dredger"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [
+      "Cathartic Reunion"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "land",
+      "dredger",
+      "dredger"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [
+      "Conflagrate",
+      "Life from the Loam"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "land",
+      "dredger",
+      "fliplessPayoff"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [
+      "Shriekhorn"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "land"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [],
+    "excludesCards": [],
+    "containsTags": [
+      "enabler",
+      "enabler",
+      "makesGreen",
+      "land"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [
+      "Faithless Looting"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "dredger"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [
+      "Faithless Looting",
+      "Faithless Looting"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesRed"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [
+      "Faithless Looting",
+      "Shriekhorn"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesRed"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [
+      "Shriekhorn",
+      "Shriekhorn"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 7
+  },
+  {
+    "containsCards": [
+      "Conflagrate"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "makesRed",
+      "dredger"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 6
+  },
+  {
+    "containsCards": [
+      "Faithless Looting"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesRed"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 5
+  },
+  {
+    "containsCards": [
+      "Shriekhorn"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesRed"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 5
+  },
+  {
+    "containsCards": [
+      "Lightning Axe"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "dredger"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 5
+  },
+  {
+    "containsCards": [
+      "Conflagrate"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesRed",
+      "makesRed",
+      "dredger"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 5
+  },
+  {
+    "containsCards": [
+      "Cathartic Reunion"
+    ],
+    "excludesCards": [], 
+    "containsTags": [
+      "makesRed",
+      "land"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 5
+  },
+  {
+    "containsCards": [
+      "Life from the Loam"
+    ],
+    "excludesCards": [],
+    "containsTags": [
+      "makesGreen",
+      "land"
+    ],
+    "excludesTags": [],
+    "maxKeepSize": 5
+  }
+]

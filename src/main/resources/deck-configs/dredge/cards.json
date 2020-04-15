@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Stomping Ground",
+    "tags": [
+      "land",
+      "makesGreen",
+      "makesRed"
+    ]
+  },
+  {
+    "name": "Blood Crypt",
+    "tags": [
+      "land",
+      "makesRed"
+    ]
+  },
+  {
+    "name": "Dakmor Salvage",
+    "tags": [
+      "land",
+      "dredger"
+    ]
+  },
+  {
+    "name": "Gemstone Mine",
+    "tags": [
+      "land",
+      "makesGreen",
+      "makesRed"
+    ]
+  },
+  {
+    "name": "Copperline Gorge",
+    "tags": [
+      "land",
+      "makesGreen",
+      "makesRed"
+    ]
+  },
+  {
+    "name": "Mana Confluence",
+    "tags": [
+      "land",
+      "makesGreen",
+      "makesRed"
+    ]
+  },
+  {
+    "name": "Bloodstained Mire",
+    "tags": [
+      "land",
+      "makesGreen",
+      "makesRed"
+    ]
+  },
+  {
+    "name": "Scalding Tarn",
+    "tags": [
+      "land",
+      "makesGreen",
+      "makesRed"
+    ]
+  },
+  {
+    "name": "Mountain",
+    "tags": [
+      "land",
+      "makesRed"
+    ]
+  },
+  {
+    "name": "Bloodghast",
+    "tags": [
+      "payoff",
+      "fliplessPayoff"
+    ]
+  },
+  {
+    "name": "Narcomoeba",
+    "tags": [
+      "payoff"
+    ]
+  },
+  {
+    "name": "Prized Amalgam",
+    "tags": [
+      "payoff",
+      "fliplessPayoff"
+    ]
+  },
+  {
+    "name": "Creeping Chill",
+    "tags": [
+      "payoff"
+    ]
+  },
+  {
+    "name": "Leyline of the Void",
+    "tags": [
+    ]
+  },
+  {
+    "name": "Assassin's Trophy",
+    "tags": [
+      "counterhate"
+    ]
+  },
+  {
+    "name": "Nature's Claim",
+    "tags": [
+      "counterhate"
+    ]
+  },
+  {
+    "name": "Ancient Grudge",
+    "tags": [
+      "counterhate"
+    ]
+  },
+  {
+    "name": "Thoughtseize",
+    "tags": [
+      "counterhate"
+    ]
+  },
+  {
+    "name": "Conflagrate",
+    "tags": [
+      "enabler"
+    ]
+  },
+  {
+    "name": "Lightning Axe",
+    "tags": [
+      "enabler"
+    ]
+  },
+  {
+    "name": "Stinkweed Imp",
+    "tags": [
+      "dredger"
+    ]
+  },
+  {
+    "name": "Life from the Loam",
+    "tags": [
+      "dredger"
+    ]
+  },
+  {
+    "name": "Darkblast",
+    "tags": [
+      "dredger"
+    ]
+  },
+  {
+    "name": "Golgari Thug",
+    "tags": [
+      "dredger"
+    ]
+  },
+  {
+    "name": "Faithless Looting",
+    "tags": [
+      "enabler"
+    ],
+    "dredgeDepth": 2
+  },
+  {
+    "name": "Cathartic Reunion",
+    "tags": [
+      "enabler"
+    ],
+    "dredgeDepth": 3
+  },
+  {
+    "name": "Shriekhorn",
+    "tags": [
+      "enabler"
+    ],
+    "dredgeDepth": 4
+  }
+]

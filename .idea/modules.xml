@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/magic-sim.iml" filepath="$PROJECT_DIR$/magic-sim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/magicsim.iml" filepath="$PROJECT_DIR$/.idea/magicsim.iml" />
     </modules>
   </component>
 </project>

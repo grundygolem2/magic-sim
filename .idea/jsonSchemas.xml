@@ -1,63 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-    <component name="JsonSchemaMappingsProjectConfiguration">
-        <state>
-            <map>
-                <entry key="Card.schema">
-                    <value>
-                        <SchemaInfo>
-                            <option name="name" value="Card.schema"/>
-                            <option name="relativePathToSchema"
-                                    value="src\main\resources\json-schema\Card.schema.json"/>
-                        </SchemaInfo>
-                    </value>
-                </entry>
-                <entry key="Cardfile.schema">
-                    <value>
-                        <SchemaInfo>
-                            <option name="name" value="Cardfile.schema"/>
-                            <option name="relativePathToSchema"
-                                    value="src\main\resources\json-schema\Cardfile.schema.json"/>
-                        </SchemaInfo>
-                    </value>
-                </entry>
-                <entry key="Deck.schema">
-                    <value>
-                        <SchemaInfo>
-                            <option name="name" value="Deck.schema"/>
-                            <option name="relativePathToSchema"
-                                    value="src\main\resources\json-schema\Deck.schema.json"/>
-                        </SchemaInfo>
-                    </value>
-                </entry>
-                <entry key="Deckfile.schema">
-                    <value>
-                        <SchemaInfo>
-                            <option name="name" value="Deckfile.schema"/>
-                            <option name="relativePathToSchema"
-                                    value="src\main\resources\json-schema\Deckfile.schema.json"/>
-                        </SchemaInfo>
-                    </value>
-                </entry>
-                <entry key="Hand.schema">
-                    <value>
-                        <SchemaInfo>
-                            <option name="name" value="Hand.schema"/>
-                            <option name="relativePathToSchema"
-                                    value="src\main\resources\json-schema\Hand.schema.json"/>
-                        </SchemaInfo>
-                    </value>
-                </entry>
-                <entry key="Handfile.schema">
-                    <value>
-                        <SchemaInfo>
-                            <option name="name" value="Handfile.schema"/>
-                            <option name="relativePathToSchema"
-                                    value="src\main\resources\json-schema\Handfile.schema.json"/>
-                        </SchemaInfo>
-                    </value>
-                </entry>
-            </map>
-        </state>
-    </component>
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="Card.schema">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Card.schema" />
+              <option name="relativePathToSchema" value="src\main\resources\json-schema\Card.json" />
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Cardfile.schema">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Cardfile.schema" />
+              <option name="relativePathToSchema" value="src\main\resources\json-schema\Cardfile.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/main/resources/deck-configs/dredge/cards.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Deck.schema">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Deck.schema" />
+              <option name="relativePathToSchema" value="src\main\resources\json-schema\Deck.json" />
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Deckfile.schema">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Deckfile.schema" />
+              <option name="relativePathToSchema" value="src\main\resources\json-schema\Deckfile.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/main/resources/deck-configs/dredge/deck.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Hand.schema">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Hand.schema" />
+              <option name="relativePathToSchema" value="src\main\resources\json-schema\Hand.json" />
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Handfile.schema">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Handfile.schema" />
+              <option name="relativePathToSchema" value="src\main\resources\json-schema\Handfile.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/main/resources/deck-configs/dredge/hands.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
 </project>
